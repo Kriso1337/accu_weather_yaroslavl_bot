@@ -10,7 +10,7 @@ city_id = "296629"
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.send_message(message.chat.id, "Отправль мне дату в виде \"2020-07-26\"")
+    bot.send_message(message.chat.id, "Для получения прогноза на ближайшие 5 дней отправь мне дату в виде \"07-26\"")
 
 
 @bot.message_handler(content_types=['text'])
