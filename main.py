@@ -1,6 +1,5 @@
 import telebot
 import json
-import time
 import urllib.request
 
 bot = telebot.TeleBot('1313886568:AAGd7Nqy8qDB7zPi198jYMyAX7NBnWW0TU0')
